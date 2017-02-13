@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -12,14 +11,14 @@
 <body>
   <header>
     <div class="video-container">
-      <video autoplay loop muted class="video-bg">
+      <video autoplay loop muted class="video-bg" id="video-bg"> <!--this id is only used for the toggle function; can be removed if you don't need an event -->
         <!-- whatever video you put here will be (effectively) cropped to fit container size; make sure you're okay with it shrinking to the top left corner of the video at your specified minimum dimensions -->
             <source src="https://zippy.gfycat.com/FearfulSoggyFox.webm" type="video/webm" alt="HTML5 background video">
           </video>
     </div>
 
     <div class="header-content">
-      <!-- sample content wrapped in a div for convenience -->
+      <!-- sample content wrapped in a div  -->
       <nav>
         <ul>
           <li><a href="#">Nav Link #1</a></li>
@@ -29,8 +28,18 @@
       </nav>
       <h1>Page Title</h1>
     </div>
-
   </header>
+
+  <section>
+    <div class="toggle-button">
+      <button type="submit" id="toggle-button">Toggle video visibility</button>
+      <p><em>demonstrates static image fallback</em></p>
+    </div>
+    <!-- other content here -->
+  </section>
+
+
+  <script src="toggle.js"></script>
 </body>
 
 </html>
