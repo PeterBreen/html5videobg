@@ -5,7 +5,7 @@ Small demo of using an HTML5 video as a background for an element on a page. See
 The CSS would need to be cleaned up for production but essentially, this uses absolute positioning inside a container element (which can be positioned in the context of the page using any number of methods)
 
 
-##Resources
+## Resources
 For demo purposes I've used the following resources - they aren't required, but they're great and I want to thank them :)
 
   - Eric Meyer's CSS Reset http://meyerweb.com/eric/tools/css/reset/
